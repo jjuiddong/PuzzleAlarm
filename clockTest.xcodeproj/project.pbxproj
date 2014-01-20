@@ -15,6 +15,7 @@
 		294CB653188D176800AFC219 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CB652188D176800AFC219 /* AppDelegate.m */; };
 		294CB656188D176800AFC219 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 294CB654188D176800AFC219 /* MainStoryboard.storyboard */; };
 		294CB659188D176800AFC219 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CB658188D176800AFC219 /* ViewController.m */; };
+		294CB669188D1DE100AFC219 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 294CB668188D1DE100AFC219 /* TestObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		294CB655188D176800AFC219 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		294CB657188D176800AFC219 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		294CB658188D176800AFC219 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		294CB667188D1DE100AFC219 /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		294CB668188D1DE100AFC219 /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +53,7 @@
 		294CB633188D176800AFC219 = {
 			isa = PBXGroup;
 			children = (
+				294CB66B188D2B5200AFC219 /* Shared Code */,
 				294CB648188D176800AFC219 /* clockTest */,
 				294CB641188D176800AFC219 /* Frameworks */,
 				294CB63F188D176800AFC219 /* Products */,
@@ -83,6 +87,8 @@
 				294CB657188D176800AFC219 /* ViewController.h */,
 				294CB658188D176800AFC219 /* ViewController.m */,
 				294CB649188D176800AFC219 /* Supporting Files */,
+				294CB667188D1DE100AFC219 /* TestObject.h */,
+				294CB668188D1DE100AFC219 /* TestObject.m */,
 			);
 			path = clockTest;
 			sourceTree = "<group>";
@@ -96,6 +102,13 @@
 				294CB650188D176800AFC219 /* clockTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		294CB66B188D2B5200AFC219 /* Shared Code */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Shared Code";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +176,7 @@
 				294CB64F188D176800AFC219 /* main.m in Sources */,
 				294CB653188D176800AFC219 /* AppDelegate.m in Sources */,
 				294CB659188D176800AFC219 /* ViewController.m in Sources */,
+				294CB669188D1DE100AFC219 /* TestObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +288,7 @@
 				294CB65E188D176800AFC219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
