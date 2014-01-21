@@ -11,6 +11,7 @@
 @implementation TestObject
 
 //@synthesize stringValue;
+//@synthesize year;
 
 - (void) doSomthing 
 {
@@ -23,6 +24,11 @@
     for (NSString *color in array)
         printf( "%s\n", [color UTF8String]);
     
+//    CFShow(self);/
+
+    
+    //NSArray *array2 = [[NSArray alloc] 
+    
     
 }
 
@@ -31,6 +37,10 @@
     make = [NSString stringWithString:aMake];
     model = [NSString stringWithString:aModel];
     year = aYear;
+}
+
+- (int) year {
+    return year;
 }
 
 @end

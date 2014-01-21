@@ -23,6 +23,7 @@
 
 //@property (nonatomic, assign) NSString *stringValue;
 //@property NSString *stringValue;
+//@property (readonly) int year;
 - (int) year;
 
 
