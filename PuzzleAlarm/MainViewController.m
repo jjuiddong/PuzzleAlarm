@@ -17,7 +17,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+
+    NSMethodSignature *sgn = [self methodSignatureForSelector:@selector(onTick:)];
+    NSInvocation *inv = [NSInvocation invocationWithMethodSignature:sgn];
+    [inv setTarget:self];
+    [inv setSelector:@selector(onTick:)];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:1 invocation:inv repeats:TRUE];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -56,6 +63,14 @@
     } else {
         [self performSegueWithIdentifier:@"showAlternate" sender:sender];
     }
+}
+
+- (void) onTick:(NSTimer*) timer
+{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    NSString *dateString = [formatter stringFromDate:[NSDate date]];
+    self.lbCurrentTime.text = dateString;
 }
 
 @end

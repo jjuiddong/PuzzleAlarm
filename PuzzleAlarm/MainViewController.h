@@ -11,5 +11,7 @@
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate, UIPopoverControllerDelegate>
 
 @property (strong, nonatomic) UIPopoverController *flipsidePopoverController;
+@property NSTimer *timer;
+@property (weak, nonatomic) IBOutlet UILabel *lbCurrentTime;
 
 @end
