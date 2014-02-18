@@ -22,6 +22,8 @@
 		3859354418A1FFFF00FE8CF0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3859352318A1FFFF00FE8CF0 /* UIKit.framework */; };
 		3859354C18A1FFFF00FE8CF0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3859354A18A1FFFF00FE8CF0 /* InfoPlist.strings */; };
 		3859354E18A1FFFF00FE8CF0 /* PuzzleAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3859354D18A1FFFF00FE8CF0 /* PuzzleAlarmTests.m */; };
+		3896A5EB18B39B3A006D7DC3 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3896A5EA18B39B3A006D7DC3 /* SettingsTableViewController.m */; };
+		38CB942218A22DAF00C43B1E /* Alien.png in Resources */ = {isa = PBXBuildFile; fileRef = 38CB942118A22DAF00C43B1E /* Alien.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		3859354918A1FFFF00FE8CF0 /* PuzzleAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PuzzleAlarmTests-Info.plist"; sourceTree = "<group>"; };
 		3859354B18A1FFFF00FE8CF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3859354D18A1FFFF00FE8CF0 /* PuzzleAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PuzzleAlarmTests.m; sourceTree = "<group>"; };
+		3896A5E918B39B3A006D7DC3 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		3896A5EA18B39B3A006D7DC3 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		38CB942118A22DAF00C43B1E /* Alien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Alien.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +123,8 @@
 				3859352E18A1FFFF00FE8CF0 /* AppDelegate.h */,
 				3859352F18A1FFFF00FE8CF0 /* AppDelegate.m */,
 				3859353118A1FFFF00FE8CF0 /* Main.storyboard */,
+				3896A5E918B39B3A006D7DC3 /* SettingsTableViewController.h */,
+				3896A5EA18B39B3A006D7DC3 /* SettingsTableViewController.m */,
 				3859353418A1FFFF00FE8CF0 /* MainViewController.h */,
 				3859353518A1FFFF00FE8CF0 /* MainViewController.m */,
 				3859353718A1FFFF00FE8CF0 /* FlipsideViewController.h */,
@@ -131,6 +138,7 @@
 		3859352618A1FFFF00FE8CF0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38CB942118A22DAF00C43B1E /* Alien.png */,
 				3859352718A1FFFF00FE8CF0 /* PuzzleAlarm-Info.plist */,
 				3859352818A1FFFF00FE8CF0 /* InfoPlist.strings */,
 				3859352B18A1FFFF00FE8CF0 /* main.m */,
@@ -234,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3859353B18A1FFFF00FE8CF0 /* Images.xcassets in Resources */,
+				38CB942218A22DAF00C43B1E /* Alien.png in Resources */,
 				3859352A18A1FFFF00FE8CF0 /* InfoPlist.strings in Resources */,
 				3859353318A1FFFF00FE8CF0 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +265,7 @@
 			files = (
 				3859353018A1FFFF00FE8CF0 /* AppDelegate.m in Sources */,
 				3859353618A1FFFF00FE8CF0 /* MainViewController.m in Sources */,
+				3896A5EB18B39B3A006D7DC3 /* SettingsTableViewController.m in Sources */,
 				3859353918A1FFFF00FE8CF0 /* FlipsideViewController.m in Sources */,
 				3859352C18A1FFFF00FE8CF0 /* main.m in Sources */,
 			);
@@ -468,6 +478,7 @@
 				3859355318A1FFFF00FE8CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3859355418A1FFFF00FE8CF0 /* Build configuration list for PBXNativeTarget "PuzzleAlarmTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +487,7 @@
 				3859355618A1FFFF00FE8CF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

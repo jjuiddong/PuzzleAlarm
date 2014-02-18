@@ -39,4 +39,37 @@
     [self.delegate flipsideViewControllerDidFinish:self];
 }
 
+
+//
+//
+//#pragma mark - Table View
+//
+//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+//{
+//    return 0;
+//}
+//
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+//{
+////    return _authors.count + 1;
+//    return 0;
+//}
+//
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+////    NSString *cellIdentifier = (indexPath.row < _authors.count) ? @"Cell" : @"AddCell";
+////    
+////    CustomCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+////    
+////    if ([cell.reuseIdentifier isEqualToString:@"Cell"]) {
+////        DBAuthor *object = [_authors objectAtIndex:indexPath.row];
+////        cell.mainLabel.text = object.fullName;
+////        cell.detailLabel1.text = [NSString stringWithFormat:@"%d", object.books.count];
+////    }
+////    return cell;
+//    return nil;
+//}
+
+
+
 @end

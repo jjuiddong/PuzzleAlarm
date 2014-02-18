@@ -18,12 +18,13 @@
 {
     [super viewDidLoad];
     
-
     NSMethodSignature *sgn = [self methodSignatureForSelector:@selector(onTick:)];
     NSInvocation *inv = [NSInvocation invocationWithMethodSignature:sgn];
     [inv setTarget:self];
     [inv setSelector:@selector(onTick:)];
     self.timer = [NSTimer scheduledTimerWithTimeInterval:1 invocation:inv repeats:TRUE];
+    
+    self.lbCurrentTime.text = @" ";
     
 }
 
